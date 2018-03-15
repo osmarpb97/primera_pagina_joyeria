@@ -1,0 +1,144 @@
+
+
+body{
+  background-color: #ffffff;
+}
+.transparente {
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+}
+
+.transparente a {
+  color: black;
+}
+.primero
+{
+  margin-top: 70px;
+}
+.texto-centro{
+  text-align: center;
+  color: black;
+}
+
+p {
+  line-height: 1.5rem;
+}
+.boton
+{
+  margin-left: 10px;
+}
+.boton1
+{
+  margin-right: 10px;
+}
+.azul
+{
+  background-color: #26a69a;
+}
+.button-collapse{
+  color: #26a69a;
+}
+.brand-logo
+{
+  font-family: 'Pacifico', cursive;
+}
+.pacifico
+{
+  font-family: 'Pacifico', cursive;
+}
+.font-delgada
+{
+  font-family: 'Poiret One', cursive;
+}
+.parallax-container {
+  min-height: 500px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.grande
+{
+  margin-top: -65px;
+  height: 100vh;
+}
+.margen
+{
+  margin-top: 250px;
+}
+.margen1
+{
+  margin-top: 50px;
+}
+.parallax-container .section {
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+div.contenedor {
+  height:80px;
+  color: rgb(0, 0, 0);
+  font-size: 80px;
+  line-height: 80px;
+  overflow: hidden;
+  }
+  
+  ul.animacion {
+   animation: cambiar 7s infinite;
+  }
+
+
+@keyframes  cambiar {
+
+0%{ margin-top: 0;}
+ 20%{ margin-top: 0;}
+ 
+ 25% { margin-top: -80PX;}
+ 50% { margin-top: -80PX;}
+ 
+ 55% { margin-top: -160PX;}
+ 80% { margin-top: -160PX;}
+ 
+ 85% { margin-top: -160PX;}
+ 95% { margin-top: -160PX;}
+ 
+100% { margin-top: 0;}
+}
+.slider .indicators .indicator-item {
+  background-color: #811a1a;
+  border: 3px solid #ffffff;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.slider .indicators .indicator-item.active {
+  background-color: #ffffff;
+}

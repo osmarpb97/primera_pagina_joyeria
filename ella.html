@@ -1,0 +1,108 @@
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Parallax Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+</script>
+</head>
+
+<body>
+    <header>
+      <div class="transparente ">
+        <ul class="side-nav " id="slide-out">
+            <a href="index.html" class="primero "><h3 class="texto-centro pacifico primero">Inicio</h3></a>
+            <li><a href="" class="primero "><h5 class="texto-centro">Ella</h5></a></li>
+            <li><a href=""><h5 class="texto-centro">El</h5></a></li>
+            <li><a href=""><h5 class="texto-centro">Niño</h5></a></li>
+            <li><a href=""><h5 class="texto-centro">Mesa de Regalos</h5></a></li>
+          </ul>
+          <ul class="side-nav " id="slide-out1">
+                <li><div class="user-view">
+                  <div class="background">
+                    <img src="slide-4.jpg">
+                  </div>
+                  <a href="#!user"><img class="circle" src="slide-4.jpg"></a>
+                  <a href="#!name"><span class="white-text name">John Doe</span></a>
+                  <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                </div></li>
+                <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+                <li><a href="#!">Second Link</a></li>
+                <li><div class="divider"></div></li>
+                <li><a class="subheader">Subheader</a></li>
+                <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+            </ul>
+      </div>
+        <div class="navbar-fixed">
+            <nav class="transparente">
+                <div class="nav-wrapper" id="menu"> <a href="#!" class="brand-logo center">Presence</a>
+                    <ul class="left"><a href="#"  data-activates="slide-out"class="boton"><i class="material-icons">menu</i></a></ul>
+                    <ul class="right"><a href="#" data-activates="slide-out1" class="boton1"><i class="material-icons">account_circle</i></a></ul>
+                    <ul class="right"><a href="#"><i class="material-icons">shopping_cart</a>
+                    </i></ul> 
+                </div>
+            </nav>
+        </div>
+</header>
+
+
+<div id="index-banner" class="parallax-container grande">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header light">
+            <div class="row center">
+                <div class="contenedor margen">
+                <ul class="animacion">
+                  <span style="color:#26A69A">
+                  <li>Bienvenida</li>
+                  <li>Paola</li>
+                  </span>
+                </ul>
+                </div>
+              </div>
+        </h1>
+        <div class="row center">
+          <h5 class="header col s12 light" >      <span class="black-text">Joyeria en acero</span></h5>
+        </div>
+        <div class="row center">
+          <a href="" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">DESCUBRE MÁS</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="slide-1.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+    <!--  Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script>
+    
+      $(window).scroll(function(){
+         if ($("#menu").offset().top > 50) {
+          $("#menu").addClass("white");
+         } else {
+          $("#menu").removeClass("white");
+         }
+      });
+  </script>
+  <script>  $(".boton ").sideNav();
+    </script>
+    <script>  $(".boton1").sideNav({edge: 'right'});
+    </script>
+  
+    <script>
+        $(document).ready(function(){
+          $('.slider').slider({indicators: false});
+        });</script>
+  
+    </body>
+  </html>
